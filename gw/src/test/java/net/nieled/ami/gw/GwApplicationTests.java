@@ -1,13 +1,13 @@
-package net.nieled.ami.msa;
+package net.nieled.ami.gw;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AmiApplicationTests {
+class GwApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
