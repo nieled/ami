@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.7.2'
 	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
 	id 'java'
+	id 'com.github.node-gradle.node' version '3.4.0'
 }
 
 group = 'net.nieled.ami'
@@ -27,6 +28,10 @@ dependencyManagement {
 	imports {
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
 	}
+}
+
+node {
+	download = false
 }
 
 tasks.named('test') {

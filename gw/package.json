@@ -1,0 +1,11 @@
+{
+  "name": "gw",
+  "version": "0.0.1-SNAPSHOT",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "echo Build",
+    "clean": "echo Clean",
+    "lint": "echo Lint",
+    "test": "echo Test"
+  }
+}
