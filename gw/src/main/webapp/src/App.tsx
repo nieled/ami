@@ -1,5 +1,5 @@
 const App = () => {
-  const foo = 1
+  const _foo = 1
 
   return <>It works!</>
 }
