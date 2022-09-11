@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   root: 'src/main/webapp',
   build: {
-    outDir: '../../../build/resources/main/static/app',
+    outDir: '../../../build/resources/main/static',
   },
   plugins: [react()],
 })
