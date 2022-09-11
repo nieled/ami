@@ -1,6 +1,5 @@
-
 const App = () => {
-    return <>It works!</>
+  return <>It works!</>
 }
 
 export default App

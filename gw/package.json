@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "prettier:check": "prettier --check \"{,src/**/*.{ts,tsx}}\"",
+    "prettier:write": "prettier --write \"{,src/**/*.{ts,tsx}}\"",
     "clean": "echo Clean",
     "lint": "echo Lint",
     "test": "echo Test"
@@ -16,6 +18,7 @@
     "@types/react": "^18.0.19",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.8.3",
     "vite": "^3.1.0"
   },
