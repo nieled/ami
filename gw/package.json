@@ -11,15 +11,22 @@
     "prettier:write": "prettier --write \"{,src/**/*.{ts,tsx}}\"",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "clean": "echo Clean",
-    "test": "echo Test"
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.19",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
     "@vitejs/plugin-react": "^2.1.0",
+    "@vitest/ui": "^0.23.2",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
@@ -27,9 +34,11 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "jsdom": "^20.0.0",
     "prettier": "^2.7.1",
     "typescript": "^4.8.3",
-    "vite": "^3.1.0"
+    "vite": "^3.1.0",
+    "vitest": "^0.23.2"
   },
   "dependencies": {
     "react": "^18.2.0",
